@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/size_top"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_image"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_title"
+            android:textColor="@color/purple_700"
+            android:text="@string/signUp"
+            android:layout_marginTop="@dimen/size_all"
+            android:layout_gravity="center">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/size_all">
+
+            <EditText
+                android:id="@+id/txtFirstName"
+                android:layout_width="@dimen/size_btnWidth"
+                android:layout_height="@dimen/size_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_all"
+                android:inputType="text"
+                android:hint="@string/first_name"
+                android:textAlignment="center"
+                android:textColorHint="@color/teal_200"
+                android:elevation="@dimen/size_elevation"
+                android:background="@drawable/fields"
+                />
+            <EditText
+                android:id="@+id/txtLastName"
+                android:layout_width="@dimen/size_btnWidth"
+                android:layout_height="@dimen/size_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_all"
+                android:inputType="text"
+                android:hint="@string/last_name"
+                android:textAlignment="center"
+                android:textColorHint="@color/teal_200"
+                android:elevation="@dimen/size_elevation"
+                android:background="@drawable/fields"
+                />
+            <EditText
+                android:id="@+id/txtUserName"
+                android:layout_width="@dimen/size_btnWidth"
+                android:layout_height="@dimen/size_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_all"
+                android:inputType="text"
+                android:hint="@string/username"
+                android:drawableEnd="@drawable/ic_baseline_account_circle_24"
+                android:textAlignment="center"
+                android:textColorHint="@color/teal_200"
+                android:elevation="@dimen/size_elevation"
+                android:background="@drawable/fields"
+                />
+            <EditText
+                android:id="@+id/txtPassWord"
+                android:layout_width="@dimen/size_btnWidth"
+                android:layout_height="@dimen/size_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_all"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:drawableEnd="@drawable/ic_baseline_vpn_key_24"
+                android:textAlignment="center"
+                android:textColorHint="@color/teal_200"
+                android:elevation="@dimen/size_elevation"
+                android:background="@drawable/fields"
+                />
+            <Button
+                android:layout_width="@dimen/size_btnWidth"
+                android:layout_height="@dimen/size_btnHeight"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_all"
+                android:background="@drawable/btn"
+                android:text="@string/signUp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_title"
+                android:id="@+id/btnSignUp"></Button>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

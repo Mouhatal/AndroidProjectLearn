@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/size_top"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/goBackIcon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:onClick="goBack1"
+                tools:ignore="OnClick"></ImageView>
+            <TextView
+                android:id="@+id/signUpBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signUp"
+                android:gravity="end"
+                android:onClick="signUp"
+                android:textColor="@color/colorAccent"
+                android:textSize="15dp"
+                tools:ignore="OnClick" />
+        </LinearLayout>-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_image"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_title"
+            android:textColor="@color/purple_700"
+            android:text="@string/signIn"
+            android:layout_marginTop="@dimen/size_all"
+            android:layout_gravity="center"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/size_all">
+
+            <EditText
+                android:id="@+id/txtUserName1"
+                android:layout_width="@dimen/size_btnWidth"
+                android:layout_height="@dimen/size_btnHeight"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_all"
+                android:inputType="text"
+                android:hint="@string/username"
+                android:drawableEnd="@drawable/ic_baseline_account_circle_24"
+                android:textAlignment="center"
+                android:textColorHint="@color/teal_200"
+                android:elevation="@dimen/size_elevation"
+                android:background="@drawable/fields"
+                />
+            <EditText
+                android:id="@+id/txtPassWord1"
+                android:layout_width="@dimen/size_btnWidth"
+                android:layout_height="@dimen/size_btnHeight"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_all"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                android:drawableEnd="@drawable/ic_baseline_vpn_key_24"
+                android:textAlignment="center"
+                android:textColorHint="@color/teal_200"
+                android:elevation="@dimen/size_elevation"
+                android:background="@drawable/fields"
+                />
+            <Button
+                android:layout_width="@dimen/size_btnWidth"
+                android:layout_height="@dimen/size_btnHeight"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_all"
+                android:background="@drawable/btn"
+                android:text="@string/signIn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_title"
+                android:id="@+id/btnSignIn"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_teams">
+        <item>Teunguetch fc</item>
+        <item>Jaaraf</item>
+        <item>AS Dounes</item>
+        <item>Dakar Sacré Coeur</item>
+        <item> Casa Sports</item>
+        <item>As Pikine</item>
+        <item>Stade de Mbour</item>
+        <item>Mbour Pc</item>
+        <item>Us Gorée</item>
+        <item>Diambars</item>
+        <item>Ndiambour</item>
+        <item> Génération foot</item>
+        <item>Niarry Tally</item>
+        <item>CNEPS Excellence</item>
+    </string-array>
+    <string-array name="tab_description">
+        <item>Région de Dakar</item>
+        <item>Région de Dakar</item>
+        <item>Région de Dakar</item>
+        <item>Région de Dakar</item>
+        <item>Région de Zinguinchor</item>
+        <item>Région de Dakar</item>
+        <item>Région de Thiès</item>
+        <item>Région de Thiès</item>
+        <item>Région de Dakar</item>
+        <item>Région de Thiès</item>
+        <item>Région de Louga</item>
+        <item>Région de Thiès</item>
+        <item>Région de Dakar</item>
+        <item>Région de Dakar</item>
+    </string-array>
+
+    <string-array name="tab_faq">
+        <item>Comment obtenir un ticket ? </item>
+        <item>Quels sont les horaires de matchs ?</item>
+        <item>Les informations sur les différentes équipes</item>
+        <item>Comment consulter le score d\'un match?</item>
+        <item> Comment avoir la localisation des différents stades ?</item>
+    </string-array>
+    <string-array name="tab_reponse">
+    <item>Vous pouvez vous procurer un ticket dans l\'un des kiosque marchand</item>
+    <item>Vous pouvez consulter la page correspondante sur le portail</item>
+    <item>Vous pouvez consulter la page des équipes sur le portail</item>
+    <item>Vous pouvez consulter la page des matchs sur le portail</item>
+    <item>Vous pouvez consulter la page des stades sur le portail</item>
+    </string-array>
+
+</resources>

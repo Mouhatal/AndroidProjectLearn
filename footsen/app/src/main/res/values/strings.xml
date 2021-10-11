@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Senfoot</string>
+    <string name="welcome">Welcome</string>
+    <string name="stadiums">Stadiums</string>
+    <string name="matches">Matches</string>
+    <string name="help">Help</string>
+    <string name="score">Score</string>
+    <string name="signUp">Sign Up</string>
+    <string name="signIn">Sign In</string>
+    <string name="username">User Name</string>
+    <string name="password">PassWord</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="error_fields">Required fields</string>
+    <string name="error_parameters">Credentials error</string>
+    <string name="error_connection">Connection error</string>
+    <string name="wait">Please wait</string>
+    <string name="team">Teams</string>
+    <string name="ticket">Reserve a ticket</string>
+    <string name="cancel">Cancel</string>
+    <string name="description">
+        The Senegalese Professional Football League (LSFP) is an association governed by articles 811
+        and following of the Code of Civil and Commercial Obligations of Senegal.
+        She is the delegate of power of the Senegalese Football Federation (FSF) and has the
+        competence to take all measures concerning organization and development within the
+        limits defined by the delegation agreement.
+    </string>
+    <string name="success_save">Successfully save</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_stadium">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="signUp">Sign Up</string>-->
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Senfoot</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="stadiums">Stades</string>
+    <string name="matches">Matches</string>
+    <string name="help">Aide</string>
+    <string name="score">Score</string>
+    <string name="team">Equipes</string>
+    <string name="signUp">S\'inscrire</string>
+    <string name="signIn">Se Connecter</string>
+    <string name="username">Nom d\'utlisateur</string>
+    <string name="password">Mot de Passe</string>
+    <string name="first_name">Prenom</string>
+    <string name="last_name">Nom</string>
+    <string name="error_fields">Champs obligatoires</string>
+    <string name="error_parameters">Identifiant ou mot de passe incorrects</string>
+    <string name="error_connection">Erreur de connection</string>
+    <string name="wait">Veuillez patienter SVP ...</string>
+    <string name="success_save">Enregistrement réussi</string>
+    <string name="menu_home">Aceuil</string>
+    <string name="ticket">Reserver un billet</string>
+    <string name="cancel">Retour</string>
+    <string name="description">
+        La Ligue Sénégalaise de Football Professionnel (LSFP) est une association régie par les articles 811
+        et suivants du Code des Obligations civiles et commerciales du Sénégal.
+        Elle est délégataire de pouvoir de la Fédération Sénégalaise de Football (FSF) et a compétence pour prendre
+        toutes les mesures concernant l\'organisation et le développement dans les limites définies par la convention de la délégation.
+    </string>
+    <!--<string name="signUp">Sign Up</string>-->
+</resources>

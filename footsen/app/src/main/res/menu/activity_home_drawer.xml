@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_soccer"
+            android:title="@string/team" />
+        <item
+            android:id="@+id/nav_matches"
+            android:icon="@drawable/ic_whistle"
+            android:title="@string/matches" />
+        <item
+            android:id="@+id/nav_stadium"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="@string/stadiums" />
+        <!--<item
+            android:id="@+id/nav_score"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/score" />-->
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="@string/help" />
+
+    </group>
+</menu>

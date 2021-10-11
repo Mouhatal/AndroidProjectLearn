@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/size_top"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_image"
+            android:src="@mipmap/ic_launcher_round">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_title"
+            android:textColor="@color/purple_700"
+            android:text="@string/app_name"
+            android:layout_marginTop="@dimen/size_top"
+            android:layout_gravity="center">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textSize="@dimen/size_title"
+            android:layout_marginTop="@dimen/size_top"
+            android:layout_gravity="center"
+            android:textColor="@color/purple_500">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/size_all">
+            <Button
+                android:layout_width="@dimen/size_btnWidth"
+                android:layout_height="@dimen/size_btnHeight"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_all"
+                android:background="@drawable/btn"
+                android:text="@string/signIn"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_title"
+                android:id="@+id/signIn">
+
+            </Button>
+            <Button
+                android:layout_width="@dimen/size_btnWidth"
+                android:layout_height="@dimen/size_btnHeight"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/size_all"
+                android:background="@drawable/btn"
+                android:text="@string/signUp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_title"
+                android:id="@+id/signUp">
+
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

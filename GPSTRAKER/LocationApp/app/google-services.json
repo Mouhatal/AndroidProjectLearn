@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "987538885235",
+    "firebase_url": "https://location-e811b-default-rtdb.firebaseio.com",
+    "project_id": "location-e811b",
+    "storage_bucket": "location-e811b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987538885235:android:299cc5167c46458d33f806",
+        "android_client_info": {
+          "package_name": "gaaynako.transpay.locationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987538885235-ar7fjrf085cek6cahtol78g8nkcg2ai3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9g4ZZZjTO_qYeiuGiyKCG7-lUNX3aJkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987538885235-ar7fjrf085cek6cahtol78g8nkcg2ai3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
